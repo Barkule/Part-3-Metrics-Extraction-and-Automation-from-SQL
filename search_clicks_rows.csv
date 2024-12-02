@@ -1,0 +1,7 @@
+search_id,search_query,clicks,impressions,click_through_rate,search_date
+1,query1,50,100,0.5,2024-11-28
+2,query2,20,500,0.04,2024-11-28
+3,query3,300,400,0.75,2024-11-28
+4,query4,0,1000,0,2024-11-28
+5,query5,10,200,0.05,2024-11-28
+6,query6,80,100,0.8,2024-11-28
