@@ -1,0 +1,1 @@
+INSERT INTO "public"."search_insights" ("id", "insight_date", "average_ctr", "top_queries", "low_performance_queries") VALUES ('1', '2024-12-02', '0.356666666666667', '[{"ctr":0.8,"query":"query6"},{"ctr":0.75,"query":"query3"},{"ctr":0.5,"query":"query1"},{"ctr":0.05,"query":"query5"},{"ctr":0.04,"query":"query2"}]', '[{"query":"query4","clicks":0,"impressions":1000}]');
