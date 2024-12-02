@@ -1,0 +1,40 @@
+SQL queries to calculate the average CTR :-
+SELECT 
+   search_date, 
+   AVG(click_through_rate) AS average_ctr
+FROM 
+   search_clicks
+GROUP BY 
+   search_date;
+
+
+
+
+identify the top 5 search queries :-
+SELECT 
+   search_query, 
+   click_through_rate
+FROM 
+   search_clicks
+WHERE 
+   search_date BETWEEN '2024-11-01' AND '2024-11-30'
+ORDER BY 
+   click_through_rate DESC
+LIMIT 5;
+
+
+
+
+Detect low-performing queries :-
+SELECT 
+   search_query, 
+   impressions, 
+   clicks
+FROM 
+   search_clicks
+WHERE 
+   impressions > 500 AND clicks < 50;
+
+
+
+
